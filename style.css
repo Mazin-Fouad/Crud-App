@@ -1,0 +1,125 @@
+    body {
+        background-color: #183a1d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    h1 {
+        color: #fefbe9;
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+    }
+    
+    .card {
+        background-color: #f6c453;
+        color: #fefbe9;
+        font-size: 25px;
+        border-radius: 20px 0 20px 0;
+        padding: 25px;
+        margin-bottom: 32px;
+        margin-top: 20px;
+        width: 400px;
+        -webkit-border-radius: 20px 0 20px 0;
+        -moz-border-radius: 20px 0 20px 0;
+        -ms-border-radius: 20px 0 20px 0;
+        -o-border-radius: 20px 0 20px 0;
+        color: honeydew;
+        line-height: 1.4;
+    }
+    
+    button {
+        background-color: #3A6973;
+        padding: 10px 40px;
+        color: #fefbe9;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+    
+    .add-btn {
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        padding: 0;
+        font-size: 20px;
+        font-weight: bold;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+    }
+    
+    input {
+        padding: 10px 20px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    
+    .info {
+        color: #f6c453;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .info span {
+        margin-bottom: -10px;
+    }
+    
+    @media (min-width: 280px) and (max-width: 320px) {
+        .inputs-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .inputs-box input {
+            width: 150px;
+            margin: 8px;
+        }
+        h1 {
+            white-space: nowrap;
+        }
+        .card {
+            width: 170px !important;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        input {
+            width: 100px;
+            margin: 5px;
+        }
+        .inputs-box {
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            width: 320px;
+            height: 70px;
+            font-size: 18px;
+            white-space: nowrap;
+        }
+        .delete-btn {
+            padding: 10px 20px;
+        }
+    }
